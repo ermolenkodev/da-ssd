@@ -1,0 +1,45 @@
+name: da-ssd
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+  - qwant
+dependencies:
+  - python=3.7
+  - future
+  - pyyaml
+  - setuptools
+  - six
+  - attrs
+  - typing
+  - typing-extensions
+  - pyarrow
+  - lz4
+  - cython=0.29.6
+  - luigi
+  - jupyter
+  - h5py
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - scikit-image
+  - opencv=4.1
+  - pillow
+  - matplotlib
+  - seaborn
+  - onnx
+  - albumentations
+  - cudatoolkit=10.1
+  - pytorch=1.4
+  - torchvision
+  - pretrainedmodels
+  - pip:
+      - pytorch-toolbelt
+      - catalyst
+      - wandb
+      - pypika
+      - efficientnet-pytorch
+      - onnxruntime-gpu
+      - visdom
+      - pycocotools==2.0.0
